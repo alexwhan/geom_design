@@ -1,0 +1,21 @@
+Package: geomdesign
+Title: Adds Geojson To Trial Designs
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alex",
+           family = "Whan",
+           role = c("aut", "cre"),
+           email = "alexwhan@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0002-6839-2915"))
+Description: Takes a geojson polygon and a field design and returns
+    a geojson feature collection with the design parameters as attributes
+    of each feature and a polygon for each feature.
+License: GPLv3
+Encoding: UTF-8
+LazyData: true
+Depends:
+    sf,
+    purrr,
+    rlang,
+    dplyr
+RoxygenNote: 6.1.1
